@@ -75,12 +75,13 @@ The dataset file is located at `dataset/movies.csv`.
 ```
 Movie-Recommendation-System/
 │
-├── app.py                  # Streamlit web application (UI)
+├── app.py                  # Streamlit web application (UI/Presentation Layer)
 ├── recommendation.py       # Core recommendation logic + fuzzy matching
 ├── preprocess.py           # Data cleaning, TF-IDF, similarity computation
 ├── utils.py                # Shared helper functions
-├── requirements.txt        # Python dependencies
-├── README.md                # Project documentation (this file)
+├── add_movie.py            # Dataset maintenance / extension utility
+├── requirements.txt        # Python package dependencies
+├── README.md               # Project documentation
 │
 ├── dataset/
 │   └── movies.csv          # Raw movie dataset
